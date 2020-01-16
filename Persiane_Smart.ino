@@ -32,8 +32,8 @@ ESP8266WebServer server(80);
 
 MDNSResponder mdns;
 
-char* ssid = "dammi i soldi";
-char* password = "marcok625";
+char* ssid = "metti la tua SSID";
+char* password = "metti la tua PASSWORD";
 
 char webpage[] PROGMEM = R"=====(
 <html>
